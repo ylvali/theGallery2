@@ -3,9 +3,9 @@ namespace Ylva\Gallery;
 
 require("galleryClass.php");
 
-//use PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
-class CGalleryTest extends \PHPUnit_Framework_TestCase
+class CGalleryTest extends extends TestCase
 {
     //test function
     public function testHello()
