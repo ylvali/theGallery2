@@ -5,7 +5,7 @@ require("galleryClass.php");
 
 use PHPUnit\Framework\TestCase;
 
-class CGalleryTest extends extends TestCase
+class CGalleryTest extends TestCase
 {
     //test function
     public function testHello()
