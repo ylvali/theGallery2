@@ -7,7 +7,7 @@ before_script:
 
 script:
     - phpunit galleryModule/testGalleryClass.php
-    - phpunit  galleryModule/testGalleryClass.php --coverage-clover coverage.clover test
+    - phpunit  galleryModule/GalleryClass.php --coverage-clover coverage.clover test
 
 after_script:
     - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
