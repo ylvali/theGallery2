@@ -58,7 +58,7 @@ class CGalleryTest extends TestCase
         $expWidth = "600";
 
         for ($i=0; $i<$size; $i++) {
-            $bigImg = $gallery->getBigVersion(1);
+            $bigImg = $gallery->getBigVersion($i);
             $this->assertContains($expWidth, $bigImg);
         }
 
