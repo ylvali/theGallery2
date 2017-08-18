@@ -4,6 +4,8 @@ Simple gallery - click an image to enlarge it.
 
 [![Build Status](https://scrutinizer-ci.com/g/ylvali/theGallery2/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ylvali/theGallery2/build-status/master)
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ylvali/theGallery2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ylvali/theGallery2/?branch=master)
+
 
 First all the images are displayed .
 When you click one you get to see the bigger version of it , by itself.
