@@ -29,9 +29,10 @@ class CGalleryTest extends TestCase
         $gallery = new \Ylva\Gallery\CGallery('test');
 
         $imageArr = $gallery->getImages();
-        $this->assertFileIsReadable($imageArr[0][0]);
-        $this->assertFileIsReadable($imageArr[1][0]);
-        $this->assertFileIsReadable($imageArr[2][0]);
+        $size = sizeOf($imageArr);
+        for ($i=0; $i<$size; $i++) {
+            $this->assertFileIsReadable($imageArr[$i][0]);
+        }
     }
 
     //test so that the sizes are set to expectation
