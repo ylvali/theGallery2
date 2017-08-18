@@ -31,16 +31,16 @@ class CGalleryTest extends TestCase
         $imageArr = $gallery->getImages();
         $size = sizeOf($imageArr);
         
-       
+       /*
+        $this->assertFileIsReadable($imageArr[0][0]);
         $this->assertFileIsReadable($imageArr[1][0]);
         $this->assertFileIsReadable($imageArr[2][0]);
-        $this->assertFileIsReadable($imageArr[3][0]);
-        
-        /*
+        */
+       
         for ($i=0; $i<$size; $i++) {
             $this->assertFileIsReadable($imageArr[$i][0]);
         }
-        */
+        
     }
 
     //test so that the sizes are set to expectation
