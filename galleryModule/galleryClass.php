@@ -19,9 +19,9 @@ class CGallery
         //list of images
         //later a database connection here
         //now images and id
-        $images[0] = array("img/orchide.jpg", 1);
-        $images[1] = array("img/wolf.jpg", 2);
-        $images[2] = array("img/khali.jpg", 3);
+        $images[0] = array("/img/orchide.jpg", 1);
+        $images[1] = array("/img/wolf.jpg", 2);
+        $images[2] = array("/img/khali.jpg", 3);
 
         return $images;
     }
