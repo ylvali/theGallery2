@@ -8,7 +8,7 @@ When you click one you get to see the bigger version of it , by itself.
 Ready to use ! 
 All included & tested.
 
-This is the first version.
+This is the second version.
 
 You add path to the pictures here:
 galleryClass.php -> getImages() .
