@@ -7,6 +7,8 @@ Scrutinizer:
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ylvali/theGallery2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ylvali/theGallery2/?branch=master)
 
+[![Code Coverage](https://scrutinizer-ci.com/g/ylvali/theGallery2/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/ylvali/theGallery2/?branch=master)
+
 Travis:
 [![Build Status](https://travis-ci.org/ylvali/theGallery2.svg?branch=master)](https://travis-ci.org/ylvali/theGallery2)
 
