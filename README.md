@@ -2,6 +2,8 @@
 
 Simple gallery - click an image to enlarge it.
 
+[![Build Status](https://scrutinizer-ci.com/g/ylvali/theGallery2/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ylvali/theGallery2/build-status/master)
+
 https://scrutinizer-ci.com/g/ylvali/theGallery2/badges/build.png?b=master
 
 First all the images are displayed .
