@@ -1,6 +1,7 @@
 language: php
 php:
-    - 7.1.7
+    - '7.1'
+    - hhvm
 
 script:
-    - phpunit testGalleryClass.php test
+    - phpunit galleryModule/testGalleryClass.php
